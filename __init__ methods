@@ -1,0 +1,17 @@
+# creating a class for cars
+class Cars():
+    def __init__(self, model, year, size, color):
+        self.model = model
+        self.year = year
+        self.size = size
+        self.color = color
+toyota = Cars('camry', '2019', 'sedan', 'silver')
+print(vars(toyota))
+
+class Books():
+    def __init__(self, genre, characters, release_date):
+        self.genre = genre
+        self.characters = characters
+        self.release_date = release_date
+Franknstein_1 = Books('Horror', '10', '1990')
+print(vars(Franknstein_1))
