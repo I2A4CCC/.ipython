@@ -12,7 +12,7 @@ def replace_email(email, old_email, new_email):
     return email
 
 
-print(replace_email('Thebest@yahoo.com', '@yahoo.com', '@gmail.com' ))
+print(replace_email('Thebest@gma.com', '@gmx.com', '@gmail.com' ))
 print(replace_email('Ilovecookies@gmail.com', '@gmail.com', '@gmx.com'))
 print(replace_email('Gamelover24@outlook.com', '@yandex.mail', '@outlook.com'))
 
